@@ -1,0 +1,14 @@
+read n ;
+to n do
+	read x ;
+	if x > 0 then
+		y := 1 ; 
+		z := 1 ;
+		while z <> x do
+			z := z + 1 * 2;
+			y := y * z ;
+			x := 1 + 2;
+		end ;
+		write "y is", y;
+	fi
+end

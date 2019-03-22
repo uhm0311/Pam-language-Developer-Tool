@@ -1,0 +1,16 @@
+write "input a";
+read a;
+write "input b";
+read b;
+c := a + b;
+d := a - b;
+e := a * b;
+f := a / b;
+write "a is", a;
+write "b is", b;
+write "a plus b is", c;
+write "a minus b is", d;
+write "a multiply b is", e;
+write "a divide b is", f;
+x:=1 + 2 * 3 * 4 + 5;
+write "one plus two multiply three multiply four plus five is", x;
